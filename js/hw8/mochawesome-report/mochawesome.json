@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-10-28T00:43:11.961Z",
+    "end": "2024-10-28T00:43:12.453Z",
+    "duration": 492,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "75dc2ea6-0597-484f-b6b3-97e845f84d77",
+      "title": "",
+      "fullFile": "cypress\\e2e\\1-getting-started\\api-folder.cy.js",
+      "file": "cypress\\e2e\\1-getting-started\\api-folder.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "764fa1e7-06e7-41fe-aaee-12f2c219e365",
+          "title": "check folder functionality on clickUp",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "get goals",
+              "fullTitle": "check folder functionality on clickUp get goals",
+              "timedOut": null,
+              "duration": 472,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "getFolders().then(response => {\n  cy.log(response.status);\n  expect(response.status).to.eq(200);\n});",
+              "err": {},
+              "uuid": "b220f30d-f24d-4797-aa75-31ceba842f10",
+              "parentUUID": "764fa1e7-06e7-41fe-aaee-12f2c219e365",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b220f30d-f24d-4797-aa75-31ceba842f10"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 472,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

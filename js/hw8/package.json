@@ -1,0 +1,13 @@
+{
+  "name": "cypress_project",
+  "version": "1.0.0",
+  "devDependencies": {
+    "allure-cypress": "^3.0.5",
+    "cypress": "^13.15.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.1.0",
+    "faker": "^6.6.6",
+    "mochawesome": "^7.1.3"
+  }
+}
